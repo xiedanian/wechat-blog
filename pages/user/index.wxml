@@ -1,0 +1,30 @@
+
+<view class="container">
+    <view class="banner">
+        <image class="image" src="../../images/userinfo-banner.jpg" mode="widthFix"></image>
+    </view>
+
+    <view class="uploader">
+        <navigator url="https://www.danian.ink" open-type="navigate" class="uploader-text">
+            <text>博客：www.danian.ink</text>
+        </navigator>
+    </view>
+
+     <view class="uploader">
+        <navigator url="" open-type="navigate" class="uploader-text">
+            <text>职业：web后端工程师</text>
+        </navigator>
+    </view>
+
+    <view class="uploader">
+        <navigator url="" open-type="navigate" class="uploader-text">
+            <text>微信：xjx_854533184</text>
+        </navigator>
+    </view>
+
+     <view class="uploader">
+        <navigator url="" open-type="navigate" class="uploader-text">
+            <text>邮箱：visk100@163.com</text>
+        </navigator>
+    </view>
+</view>

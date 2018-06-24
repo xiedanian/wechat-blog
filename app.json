@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/article/detail",
+    "pages/user/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "大年博客",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#950334",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "images/s_index.png",
+        "iconPath": "images/index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/me.png",
+        "iconPath": "images/s_me.png",
+        "pagePath": "pages/user/index",
+        "text": "我的"
+      }
+    ]
+  }
+}

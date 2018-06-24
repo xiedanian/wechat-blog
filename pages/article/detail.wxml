@@ -1,0 +1,13 @@
+<import src="../../wxParse/wxParse.wxml"/>
+<template is="wxParse" data="{{wxParseData:article.content}}"/>
+<view class="container">
+    <view class="list">
+        <view class="list-item" bindtap="testCgi">
+            <text class='list-title'> {{ articleInfo.title }}</text>
+        </view>
+    </view>
+
+    <view class="guide">
+       <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+    </view>
+</view>

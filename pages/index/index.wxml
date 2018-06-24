@@ -1,0 +1,12 @@
+
+<view class="container">
+    <view class="banner">
+        <image class="image" src="../../images/banner1.png" mode="widthFix"></image>
+    </view>
+
+    <view class="uploader" wx:for="{{article_list}}">
+        <navigator url="../article/detail?id={{item.id}}" open-type="navigate" class="uploader-text">
+            <text>{{item.title}}</text>
+        </navigator>
+    </view>
+</view>
